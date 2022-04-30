@@ -93,7 +93,7 @@ Note:
 - **nl3dmm_dict.pkl** and **nl3dmm_net_dict.pth** are from [3D face from X](https://arxiv.org/abs/1808.05323), and they are the parameters of 3DMM.
 - **model_Reso32.pth**, **model_Reso32HR.pth** and **model_Reso64.pth** are our pre-trained models, and their properties are as follows:  
 
-    |  Pre-trained Models   | Feature map's Reso | Result's Reso | GPU 1080Ti |  GPU 3090 |
+    |  Pre-trained Models   | Feature Map's Reso | Result's Reso | GPU 1080Ti |  GPU 3090 |
     |  ----  | :-:   |  :-:   | :-:   | :-:   |
     | model_Reso32  | 32 x 32 | 256 x 256 | \~14fps | \~40fps |
     | model_Reso32HR  | 32 x 32 | 512 x 512 | \~13fps | \~30fps |
