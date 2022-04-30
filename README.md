@@ -3,7 +3,8 @@
 This repository contains a pytorch implementation of "HeadNeRF: A Real-time NeRF-based Parametric Head Model (CVPR 2022)".
 Authors: [Yang Hong](https://crishy1995.github.io/), Bo Peng, Haiyao Xiao, [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/) and [Juyong Zhang*](http://staff.ustc.edu.cn/~juyong/).
 
-#####|[Paper](https://arxiv.org/abs/2112.05637)|[Project](https://crishy1995.github.io/HeadNeRF-Project/)|
+### | [Project Page](https://crishy1995.github.io/HeadNeRF-Project/) | [Paper](https://arxiv.org/abs/2112.05637) | 
+
 
 This code has been tested on ubuntu 20.04/18.04 and contains the following parts:
 
@@ -179,7 +180,7 @@ If you have questions, please contact hymath@mail.ustc.edu.cn.
 ## Acknowledgments
 - We use [face-alignment](https://github.com/1adrianb/face-alignment) for detecting 68-facial-landmarks. 
 - We use [face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch) for generating the head mask. 
-- The 3DMM that we use is from Guo et al.^[Guo Y, Cai L, Zhang J. 3D face from X: Learning face shape from diverse sources[J]. IEEE Transactions on Image Processing, 2021, 30: 3815-3827.], Tran and Liu ^[Tran L, Liu X. Nonlinear 3d face morphable model[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2018: 7346-7355.]. 
+- The 3DMM that we use is from [3D face from X](https://arxiv.org/abs/1808.05323) and [Noliner3DMM](https://openaccess.thecvf.com/content_cvpr_2018/papers/Tran_Nonlinear_3D_Face_CVPR_2018_paper.pdf). 
 - The code of fitting a single image using 3DMM is modified from [3DMM-Fitting-Pytorch](https://github.com/ascust/3DMM-Fitting-Pytorch).
 
 
