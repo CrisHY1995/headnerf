@@ -95,9 +95,9 @@ Note:
 
     |  Pre-trained Models   | Feature map's Reso | Result's Reso | GPU 1080Ti |  GPU 3090 |
     |  ----  | :-:   |  :-:   | :-:   | :-:   |
-    | model_Reso32  | 32 x 32 | 256 x 256 | \~14 fps | \~40fps |
-    | model_Reso32HR  | 32 x 32 | 512 x 512 | \~13 fps | \~30fps |
-    | model_Reso64  | 64 x 64 | 512 x 512 | \~3 fps | \~10fps |
+    | model_Reso32  | 32 x 32 | 256 x 256 | \~14fps | \~40fps |
+    | model_Reso32HR  | 32 x 32 | 512 x 512 | \~13fps | \~30fps |
+    | model_Reso64  | 64 x 64 | 512 x 512 | \~ 3fps | \~10fps |
 
 - **LatentCodeSamples.zip** contains some latent codes that correspond to some given images.
 
