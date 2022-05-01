@@ -64,6 +64,8 @@ pip3 install torch==1.8.2+cu111 torchvision==0.9.2+cu111 -f https://download.pyt
 ## Getting Started
 Download [ConfigModels.zip](https://mailustceducn-my.sharepoint.com/:u:/g/personal/hymath_mail_ustc_edu_cn/EVROtiHQqNtLoAlLweyIFV0BDrLcGn_bpHnlM6tREfcQLQ?e=n0howy), [TrainedModels.zip](https://mailustceducn-my.sharepoint.com/:u:/g/personal/hymath_mail_ustc_edu_cn/EZ78EK8mylZBoGe-jCVibjEBVtoicnFvM0jpjaE56F4ihw?e=LC0SH7), and [LatentCodeSamples.zip](https://mailustceducn-my.sharepoint.com/:u:/g/personal/hymath_mail_ustc_edu_cn/EWNBh3ZVo7VFnO9uPRuDYAABbhrx8kyQa53fHv4szdgJ-A?e=bXiAfh), then unzip them to the root dir of this project.  
 
+Other links: [Google Drive](https://drive.google.com/drive/folders/1e-DWDrCB6mUcr6MnGbMX0M9YTVl2U6KO?usp=sharing), [One Drive](https://mailustceducn-my.sharepoint.com/:f:/g/personal/hymath_mail_ustc_edu_cn/Eld8rudJhVVMrgkl-OLmKjQBBZRUg_q-1O_kWizcGYpTjQ?e=xyfLfw)
+
 The folder structure is as follows:
 ```
 headnerf
