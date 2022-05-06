@@ -266,7 +266,7 @@ class FittingImage(object):
 
             coarse_fg_rgb = pred_dict["coarse_dict"]["merge_img"]
             coarse_fg_rgb = (coarse_fg_rgb[0].detach().cpu().permute(1, 2, 0).numpy()* 255).astype(np.uint8)
-            cv2.imwrite("./temp_res/opt_imgs/img_%04d.png" % iter_, coarse_fg_rgb[:, :, ::-1])
+            # cv2.imwrite("./temp_res/opt_imgs/img_%04d.png" % iter_, coarse_fg_rgb[:, :, ::-1])
 
         coarse_fg_rgb = pred_dict["coarse_dict"]["merge_img"]
         coarse_fg_rgb = (coarse_fg_rgb[0].detach().cpu().permute(1, 2, 0).numpy()* 255).astype(np.uint8)
@@ -299,8 +299,18 @@ class FittingImage(object):
             morph_res = self.render_utils.render_morphing_res(self.net, self.res_code_info, self.tar_code_info, self.view_num)
             morph_save_path = "%s/FittingResMorphing_%s.gif" % (save_root, base_name)
             imageio.mimsave(morph_save_path, morph_res, 'GIF', duration=self.duration)
-            
-            
+
+        for k, v in self.res_code_info.items():
+            if isinstance(v, torch.Tensor):
+                self.res_code_info[k] = v.detach()
+        
+        temp_dict = {
+            "code": self.res_code_info
+        }
+
+        torch.save(temp_dict, "%s/LatentCodes_%s.pth" % (save_root, base_name))
+
+
     def fitting_single_images(self, img_path, mask_path, para_3dmm_path, tar_code_path, save_root):
         
         self.load_data(img_path, mask_path, para_3dmm_path)
