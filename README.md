@@ -3,7 +3,7 @@
 This repository contains a pytorch implementation of "HeadNeRF: A Real-time NeRF-based Parametric Head Model (CVPR 2022)".
 Authors: [Yang Hong](https://crishy1995.github.io/), Bo Peng, Haiyao Xiao, [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/) and [Juyong Zhang*](http://staff.ustc.edu.cn/~juyong/).
 
-![](docs\code_demo.gif)
+![](docs/code_demo.gif)
 
 ### | [Project Page](https://crishy1995.github.io/HeadNeRF-Project/) | [Paper](https://arxiv.org/abs/2112.05637) | 
 
