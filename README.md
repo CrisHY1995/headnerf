@@ -3,6 +3,8 @@
 This repository contains a pytorch implementation of "HeadNeRF: A Real-time NeRF-based Parametric Head Model (CVPR 2022)".
 Authors: [Yang Hong](https://crishy1995.github.io/), Bo Peng, Haiyao Xiao, [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/) and [Juyong Zhang*](http://staff.ustc.edu.cn/~juyong/).
 
+![](docs\code_demo.gif)
+
 ### | [Project Page](https://crishy1995.github.io/HeadNeRF-Project/) | [Paper](https://arxiv.org/abs/2112.05637) | 
 
 
@@ -19,15 +21,10 @@ This code has been tested on ubuntu 20.04/18.04 and contains the following parts
 - kornia
 - numpy
 - opencv-python==4.3.0.36
-- Pillow
 - pyqt5
 - tqdm
-- scipy
-- scikit-image
-- matplotlib
-- plotly
 - face-alignment
-  
+- Pillow, plotly, matplotlib, scipy, scikit-image
     We recommend running the following commands to create an anaconda environment called "headnerf" and automatically install the above requirements.
     ```bash
     conda env create -f environment.yaml

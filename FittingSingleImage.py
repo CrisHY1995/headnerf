@@ -27,7 +27,8 @@ class FittingImage(object):
         self.opt_cam = True
         self.view_num = 45
         self.duration = 3.0 / self.view_num
-        
+        self.model_name = os.path.basename(model_path)[:-4]
+
         self.build_info()
         self.build_tool_funcs()
 
@@ -308,7 +309,7 @@ class FittingImage(object):
             "code": self.res_code_info
         }
 
-        torch.save(temp_dict, "%s/LatentCodes_%s.pth" % (save_root, base_name))
+        torch.save(temp_dict, "%s/LatentCodes_%s_%s.pth" % (save_root, base_name, self.model_name))
 
 
     def fitting_single_images(self, img_path, mask_path, para_3dmm_path, tar_code_path, save_root):
