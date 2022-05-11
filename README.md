@@ -3,6 +3,7 @@
 This repository contains a pytorch implementation of "HeadNeRF: A Real-time NeRF-based Parametric Head Model (CVPR 2022)".
 Authors: [Yang Hong](https://crishy1995.github.io/), Bo Peng, Haiyao Xiao, [Ligang Liu](http://staff.ustc.edu.cn/~lgliu/) and [Juyong Zhang*](http://staff.ustc.edu.cn/~juyong/).
 
+<span id="code_demo"></span>
 ![](docs/code_demo.gif)
 
 ### | [Project Page](https://crishy1995.github.io/HeadNeRF-Project/) | [Paper](https://arxiv.org/abs/2112.05637) | 
@@ -110,9 +111,9 @@ python MainGUI.py --model_path "TrainedModels/model_Reso64.pth"
 Args:
 - **model_path** is the path of the specified pre-trained model.
 
-An interactive interface like the figure below can be generated after executing the above command. 
+An interactive interface like [the first figure](#code_demo) of this document will be generated after executing the above command. 
 
-![](docs/Demo-Gui.png)
+<!-- ![](docs/Demo-Gui.png) -->
 
 <!-- <img src='docs/main-gui.png' align='center' style=' BORDER:#000000 1px solid'/> -->
 
