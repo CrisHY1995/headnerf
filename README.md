@@ -171,7 +171,7 @@ Note:
 ## Citation
 If you find our work useful in your research, please consider citing our paper:
 ```
-@article{hong2021headnerf,
+@inproceedings{hong2021headnerf,
      author     = {Yang Hong and Bo Peng and Haiyao Xiao and Ligang Liu and Juyong Zhang},
      title      = {HeadNeRF: A Real-time NeRF-based Parametric Head Model},
      booktitle  = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition (CVPR)},
